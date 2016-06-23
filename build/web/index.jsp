@@ -22,7 +22,7 @@
 
 <BR><BR><HR width=100% color="##FF66CC">
 <table align=left >
-<tr><td><a href="index.html" target="_self">Home</a></td></tr>
+<tr><td><a href="index.jsp" target="_self">Home</a></td></tr>
 <tr><td><a href="products.jsp" target="_self">products</a></td></tr>
 <tr><td><a href="customer.jsp" target="_self">customers</a></td></tr>
 <tr><td><a href="contact.jsp" target="_self">Contact us</a></td>
