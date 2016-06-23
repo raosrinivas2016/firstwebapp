@@ -8,6 +8,12 @@
 <title>customers</title>
 </head>
 <body bgcolor="#ffffff" text="##FF66CC" link="##FF66CC" vlink="##FF66CC" alink="##FF66CC">
+<table align=left >
+<tr><td><a href="index.jsp" target="_self">Home</a></td></tr>
+<tr><td><a href="products.jsp" target="_self">products</a></td></tr>
+<tr><td><a href="customer.jsp" target="_self">customers</a></td></tr>
+<tr><td><a href="contact.jsp" target="_self">Contact us</a></td>
+</table>
 
 <sql:setDataSource var="jdbc/pc_builder" driver="com.mysql.jdbc.Driver"
      url="jdbc:mysql://localhost:3306/pc_builder"
@@ -17,7 +23,7 @@
 SELECT * from customer;
 </sql:query>
  
-<table border="1" width="100%">
+<table align=center border="1" width="100%">
 <tr>
    <th>ID</th>
    <th>Name</th>
